@@ -1,0 +1,18 @@
+package lab1;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class kurwa {
+
+	public static void main(String[] args) {
+		Map<Integer,String> CHARACTERS=new HashMap<Integer,String>();
+		CHARACTERS.put(23, "foo");
+		if(CHARACTERS.size()==0)
+			System.out.print("kupa");
+		else
+			System.out.print(CHARACTERS.get(23));
+
+	}
+
+}

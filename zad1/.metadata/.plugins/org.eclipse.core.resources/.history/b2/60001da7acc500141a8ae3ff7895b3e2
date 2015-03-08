@@ -1,0 +1,16 @@
+package lab1;
+
+import lab1.LiczbaRzymska;
+import org.junit.Assert;
+import org.junit.Before;
+import org.junit.Test;
+
+public class LiczbaRzymskaTest {
+	
+	@Test
+    public void AddTest(){
+        Assert.assertEquals(new LiczbaRzymska(1234).toString(),"MCCXXXIV");
+        Assert.assertEquals(new LiczbaRzymska(123).toString(),"CXXIII");
+        Assert.assertEquals(new LiczbaRzymska(3).toString(),"III");
+    }
+}

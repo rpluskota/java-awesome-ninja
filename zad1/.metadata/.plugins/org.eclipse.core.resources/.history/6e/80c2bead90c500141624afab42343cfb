@@ -1,0 +1,9 @@
+package c;
+
+public class LiczbaRzymska {
+	private int value;
+	
+	public String toString(){
+		return "";
+	}
+}

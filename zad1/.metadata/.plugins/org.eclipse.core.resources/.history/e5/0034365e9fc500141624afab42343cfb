@@ -1,0 +1,47 @@
+package lab1;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class kurwa {
+
+	public static void main(String[] args) {
+		Map<Integer,String> CHARACTERS=new HashMap<Integer,String>();
+		CHARACTERS.put(1, "foo");
+		CHARACTERS.put(2, "foo");
+		CHARACTERS.put(3, "foo");
+		CHARACTERS.put(4, "foo");
+		CHARACTERS.put(5, "foo");
+		CHARACTERS.put(6, "foo");
+		CHARACTERS.put(7, "foo");
+		CHARACTERS.put(8, "foo");
+		CHARACTERS.put(9, "foo");
+		CHARACTERS.put(10, "foo");
+		CHARACTERS.put(20, "foo");
+		CHARACTERS.put(30, "foo");
+		CHARACTERS.put(40, "foo");
+		CHARACTERS.put(50, "foo");
+		CHARACTERS.put(60, "foo");
+		CHARACTERS.put(70, "foo");
+		CHARACTERS.put(80, "foo");
+		CHARACTERS.put(90, "foo");
+		CHARACTERS.put(100, "foo");
+		CHARACTERS.put(200, "foo");
+		CHARACTERS.put(300, "foo");
+		CHARACTERS.put(400, "foo");
+		CHARACTERS.put(500, "D");
+		CHARACTERS.put(600, "DC");
+		CHARACTERS.put(700, "DCC");
+		CHARACTERS.put(800, "DCCC");
+		CHARACTERS.put(900, "CM");
+		CHARACTERS.put(1000, "M");
+		CHARACTERS.put(1500, "MD");
+		CHARACTERS.put(2000, "MM");
+		if(CHARACTERS.size()==0)
+			System.out.print("kupa");
+		else
+			System.out.print(CHARACTERS.get(23));
+
+	}
+
+}

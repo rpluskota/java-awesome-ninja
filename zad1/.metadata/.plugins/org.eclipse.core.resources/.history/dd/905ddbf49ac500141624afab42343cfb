@@ -1,0 +1,10 @@
+package lab1;
+
+public class LiczbaRzymska {
+	private int value;
+	private static final CHARACTERS=
+	
+	public String toString(){
+		return "";
+	}
+}

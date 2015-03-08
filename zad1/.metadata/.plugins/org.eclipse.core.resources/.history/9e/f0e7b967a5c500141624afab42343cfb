@@ -1,0 +1,60 @@
+package lab1;
+
+import java.awt.List;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.Map;
+
+public class kurwa {
+	private static ArrayList<Integer> keys=new ArrayList<Integer>();
+	public static void main(String[] args) {
+		Map<Integer,String> CHARACTERS=new HashMap<Integer,String>();
+		CHARACTERS.put(2000, "MM");
+		CHARACTERS.put(1500, "MD");
+		CHARACTERS.put(1000, "M");
+		CHARACTERS.put(900, "CM");
+		CHARACTERS.put(800, "DCCC");
+		CHARACTERS.put(700, "DCC");
+		CHARACTERS.put(600, "DC");
+		CHARACTERS.put(500, "D");
+		CHARACTERS.put(400, "CD");
+		CHARACTERS.put(300, "CCC");
+		CHARACTERS.put(200, "CC");
+		CHARACTERS.put(100, "C");
+		CHARACTERS.put(90, "XC");
+		CHARACTERS.put(80, "LXXX");
+		CHARACTERS.put(70, "LXX");
+		CHARACTERS.put(60, "LX");
+		CHARACTERS.put(50, "L");
+		CHARACTERS.put(40, "XL");
+		CHARACTERS.put(30, "XXX");
+		CHARACTERS.put(20, "XX");
+		CHARACTERS.put(10, "X");
+		CHARACTERS.put(9, "IX");
+		CHARACTERS.put(8, "VIII");
+		CHARACTERS.put(7, "VII");
+		CHARACTERS.put(6, "VI");
+		CHARACTERS.put(5, "V");
+		CHARACTERS.put(4, "IV");
+		CHARACTERS.put(3, "III");
+		CHARACTERS.put(2, "II");
+		CHARACTERS.put(1, "I");
+		
+		
+		
+		for (Map.Entry<Integer,String> entry : CHARACTERS.entrySet()) {
+			keys.add(entry.getKey());
+
+		}
+		Collections.sort(keys);
+		Collections.reverse(keys);
+		
+		
+		for (Integer key : keys) {
+			System.out.print(key);
+
+		}
+
+	}
+}

@@ -1,0 +1,13 @@
+package lab1;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class LiczbaRzymska {
+	private int value;
+	private static final Map<String,Integer> CHARACTERS=new HashMap<String, Integer>();
+	
+	public String toString(){
+		return "";
+	}
+}
