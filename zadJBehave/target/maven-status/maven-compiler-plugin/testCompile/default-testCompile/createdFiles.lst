@@ -1,0 +1,7 @@
+com\example\webguidemo\TelemanWebTest.class
+com\example\webguidemo\TelemanSteps.class
+com\example\webguidemo\pages\Ustawienia.class
+com\example\webguidemo\Pages.class
+com\example\webguidemo\pages\Sport.class
+com\example\webguidemo\pages\Teraz.class
+com\example\webguidemo\pages\Home.class
